@@ -1,10 +1,10 @@
-# S2M Image Dataset Pre-Processing Scripts
+# L-AVATeD Image Dataset Pre-Processing Scripts
 
 ## Overview
 
-This folder contains scripts for pre-processing data captured by the `s2mnet_classifier_app_ios` to create the S2Mnet Image Dataset.
+This folder contains scripts for pre-processing data captured by the `data_capture_app_ios` to create the L-AVATeD Image Dataset.
 
-The first script, `clean_and_convert_images.sh` runs only on macOS (but could easily be converted to run on 'nix based systems, by replacing `sips` with e.g. ImageMagick) and reads the source data from a `raw` data directory which must contain output from the `s2mnet_classifier_app_ios` copied from the device.
+The first script, `clean_and_convert_images.sh` runs only on macOS (but could easily be converted to run on 'nix based systems, by replacing `sips` with e.g. ImageMagick) and reads the source data from a `raw` data directory which must contain output from the `data_capture_app_ios` copied from the device.
 
 The subfolders of the `raw` folder must be the class labels e.g. "grass", "stairs-up" each of which may contain data-named subfolders, e.g. "Apr 28, 2023 at 9/47/16 AM" which themselves contain the raw image, lidar and gravity vector data.
 

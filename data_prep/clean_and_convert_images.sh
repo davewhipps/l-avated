@@ -4,8 +4,8 @@
 # into folders named by class
 RAW_DATA_DIR=raw
 
-OUTPUT_DIR=s2mnet
-OUTPUT_DIR_LIDAR=s2mnet_lidar_TIF
+OUTPUT_DIR=lavated
+OUTPUT_DIR_LIDAR=lavated_lidar_TIF
 
 # Resize images to this max-width whilst converting to JPG
 IMAGE_WIDTH=512

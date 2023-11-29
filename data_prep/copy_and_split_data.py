@@ -5,11 +5,11 @@ import glob
 import pathlib
 import shutil
 
-INPUT_DIR_RGB="s2mnet"
-OUTPUT_DIR_SPLIT_RGB="s2mnet_split"
+INPUT_DIR_RGB="lavated"
+OUTPUT_DIR_SPLIT_RGB="lavated_split"
 
-INPUT_DIR_LIDAR="s2mnet_lidar"
-OUTPUT_DIR_SPLIT_LIDAR="s2mnet_split_lidar"
+INPUT_DIR_LIDAR="lavated_lidar"
+OUTPUT_DIR_SPLIT_LIDAR="lavated_split_lidar"
 
 # Use "splitfolders" to separate RGB data into train/valid/test with a ratio
 splitfolders.ratio(INPUT_DIR_RGB, output=OUTPUT_DIR_SPLIT_RGB, seed=1337, ratio=(.8, .1, .1) )

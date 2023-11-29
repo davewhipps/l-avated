@@ -5,8 +5,8 @@ import numpy as np
 import cv2
 import pathlib
 
-INPUT_DIR="s2mnet_lidar_TIF"
-OUTPUT_DIR="s2mnet_lidar"
+INPUT_DIR="lavated_lidar_TIF"
+OUTPUT_DIR="lavated_lidar"
 
 def convert_lidar_img_at_path(file_path):
 	# TIFF images are stored as 32-bit data
