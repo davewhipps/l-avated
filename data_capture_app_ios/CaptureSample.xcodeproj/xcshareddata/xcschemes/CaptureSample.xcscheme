@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C9E38E0E25C8CB5B00171AB3"
-               BuildableName = "S2M Capture.app"
-               BlueprintName = "S2M Capture"
+               BuildableName = "L-AVATeD.app"
+               BlueprintName = "L-AVATeD"
                ReferencedContainer = "container:CaptureSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9E38E0E25C8CB5B00171AB3"
-            BuildableName = "S2M Capture.app"
-            BlueprintName = "S2M Capture"
+            BuildableName = "L-AVATeD.app"
+            BlueprintName = "L-AVATeD"
             ReferencedContainer = "container:CaptureSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9E38E0E25C8CB5B00171AB3"
-            BuildableName = "S2M Capture.app"
-            BlueprintName = "S2M Capture"
+            BuildableName = "L-AVATeD.app"
+            BlueprintName = "L-AVATeD"
             ReferencedContainer = "container:CaptureSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

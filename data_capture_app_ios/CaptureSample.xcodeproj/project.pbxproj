@@ -45,7 +45,7 @@
 		C9BA144425EF052300A19324 /* AsyncImageHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageHelpers.swift; sourceTree = "<group>"; };
 		C9BF999D25E07A5200707ADC /* CaptureGalleryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureGalleryView.swift; sourceTree = "<group>"; };
 		C9BF99A025E0808D00707ADC /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
-		C9E38E0F25C8CB5B00171AB3 /* S2M Capture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "S2M Capture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E38E0F25C8CB5B00171AB3 /* L-AVATeD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L-AVATeD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E38E1225C8CB5B00171AB3 /* CaptureSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSampleApp.swift; sourceTree = "<group>"; };
 		C9E38E1425C8CB5B00171AB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C9E38E1625C8CB5D00171AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		C9E38E1025C8CB5B00171AB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9E38E0F25C8CB5B00171AB3 /* S2M Capture.app */,
+				C9E38E0F25C8CB5B00171AB3 /* L-AVATeD.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9E38E0E25C8CB5B00171AB3 /* S2M Capture */ = {
+		C9E38E0E25C8CB5B00171AB3 /* L-AVATeD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9E38E1E25C8CB5D00171AB3 /* Build configuration list for PBXNativeTarget "S2M Capture" */;
+			buildConfigurationList = C9E38E1E25C8CB5D00171AB3 /* Build configuration list for PBXNativeTarget "L-AVATeD" */;
 			buildPhases = (
 				C9E38E0B25C8CB5B00171AB3 /* Sources */,
 				C9E38E0C25C8CB5B00171AB3 /* Frameworks */,
@@ -139,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = "S2M Capture";
+			name = "L-AVATeD";
 			productName = CaptureSample;
-			productReference = C9E38E0F25C8CB5B00171AB3 /* S2M Capture.app */;
+			productReference = C9E38E0F25C8CB5B00171AB3 /* L-AVATeD.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9E38E0E25C8CB5B00171AB3 /* S2M Capture */,
+				C9E38E0E25C8CB5B00171AB3 /* L-AVATeD */,
 			);
 		};
 /* End PBXProject section */
@@ -345,7 +345,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CaptureSample/Preview Content\"";
 				DEVELOPMENT_TEAM = MY2YRQ74J9;
 				INFOPLIST_FILE = CaptureSample/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "S2M Capture";
+				INFOPLIST_KEY_CFBundleDisplayName = "L-AVATeD Capture";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -375,7 +375,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CaptureSample/Preview Content\"";
 				DEVELOPMENT_TEAM = MY2YRQ74J9;
 				INFOPLIST_FILE = CaptureSample/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "S2M Capture";
+				INFOPLIST_KEY_CFBundleDisplayName = "L-AVATeD Capture";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,7 +403,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9E38E1E25C8CB5D00171AB3 /* Build configuration list for PBXNativeTarget "S2M Capture" */ = {
+		C9E38E1E25C8CB5D00171AB3 /* Build configuration list for PBXNativeTarget "L-AVATeD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9E38E1F25C8CB5D00171AB3 /* Debug */,
