@@ -10,7 +10,7 @@ all_files = glob.glob(file_paths)
 
 dfs = list()
 
-COLUMNS = ["x", "y", "z", "uuid", "class"]
+COLUMNS = ["x", "y", "z", "uuid", "label"]
 all_data = pd.DataFrame(columns=COLUMNS)
 
 for f in all_files:
