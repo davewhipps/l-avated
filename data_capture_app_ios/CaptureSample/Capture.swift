@@ -49,7 +49,7 @@ struct Capture: Identifiable {
         self.captureNumber = captureNumber
         self.photo = photo
         self.depthData = depthData
-        self.gravity = gravity
+        self.gravity = gravity        
     }
     
     /// This method writes the captured images to a specified folder. This method saves the image as
