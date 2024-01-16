@@ -18,4 +18,5 @@ A highly modified version of this [sample project from Apple](https://developer.
 
 RGB images were stored in the Apple native image format HEIC and resized and converted to JPEG (in `lavated_split.zip`) using Apple's `sips` command line tool. See: `clean_and_convert_images.sh`.
 
+
 Depth data was stored as a disparity map (i.e. 1/distance) and saved into a TIFF file as 32-bit grayscale. Care should be taken when attempting to work with this disparity data, as many image manipulation software packages are not equipped to properly read the format. See the script `convert_lidar_data.py` for an example of how to properly read this data using OpenCV.
