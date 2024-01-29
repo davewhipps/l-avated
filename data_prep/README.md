@@ -14,4 +14,6 @@ The user should then manually run the python script called `convert_lidar_data.p
 
 Finally, running `copy_and_split_data.py` splits the image files into train/test/val folders, first doing the RGB images, then copying the matching Lidar files to an analogous folder hierarchy.
 
-The script `aggregate_device_orientations.py` reads the device gravity vectors from the ".TXT" files contained within each of the subfolders and aggregates them into a csv file. The output of this script is included in `results/lavated_gravity_vectors.csv`
+The script `aggregate_device_orientations.py` reads the device gravity vectors from the ".TXT" files contained within each of the subfolders and aggregates them into a csv file. The output of this script is included in `lavated_gravity_vectors.csv`
+
+The script `calculate_orientations.py` reads the file `lavated_gravity_vectors.csv` and outputs pitch and roll statistics for each class.
